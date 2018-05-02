@@ -16,6 +16,7 @@ int main(void)
 	PORTD = 0xff;
     while (1) 
     {		
+		PORTD = 0xFF;
 		for( int i = 0; i<7; i++)
 		{
 			PORTD = ~(1 << i);
